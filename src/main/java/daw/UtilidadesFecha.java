@@ -67,7 +67,7 @@ public class UtilidadesFecha {
     }
 
     public static long diasTranscurridos(LocalDate fechaInicial, LocalDate fechaFinal) {
-
+        //return fechaInicial.until(fechaFinal, DAYS);
         return ChronoUnit.DAYS.between(fechaInicial, fechaFinal);
     }
 

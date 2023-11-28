@@ -17,6 +17,7 @@ public class Prueba {
 
     public static void main(String[] args) {
 
+        System.out.println("Introduce una fecha:");
         System.out.println("Introduce el día");
         int day = pedirNumero();
 
@@ -152,3 +153,4 @@ public class Prueba {
     }
 
 }
+
